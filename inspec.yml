@@ -1,0 +1,13 @@
+name: acme-windows-server-2019-baseline
+title: acme-windows-server-2019-baseline
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: A wrapper inspec profile that inherits from cis-windows2016rtm-release1607-level1-memberserver
+version: 0.0.1
+supports:
+- platform-family: windows
+depends:
+- name: cis-windows2016rtm-release1607-level1-memberserver
+  compliance: admin/cis-windows2016rtm-release1607-level1-memberserver
